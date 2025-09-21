@@ -1,0 +1,15 @@
+venv/
+ENV/
+.env/
+
+*.log
+
+*.db
+
+photos/
+
+config.py
+*.env
+
+.DS_Store
+Thumbs.db
