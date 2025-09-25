@@ -1,5 +1,0 @@
-FILE_NOT_PROVIDED = "Файл не указан"
-FILE_SAVE_ERROR = "Ошибка сохранения файла"
-UNKNOWN_ERROR = "Неизвестная ошибка при сохранении изображения"
-INTERNAL_SERVER_ERROR = "Внутренняя ошибка сервера при сохранении изображения"
-OID_NOT_PROVIDED = "OID не указан"
