@@ -42,18 +42,18 @@
 ## 🔹 Пример структуры проекта
 
 vk_face_collector/
-├── app/ # Основной код микросервиса
-│ ├── main.py # FastAPI эндпоинты
-│ ├── models.py # Pydantic модели: TaskRequest, TaskResponse
-│ ├── statuses.py # Enum статусов задач и файлов
-│ ├── task_queue.py # Работа с Redis очередью задач
-│ ├── gdrive_manager.py # Работа с Google Drive (бот загружает файлы)
-│ ├── fileManager.py # Утилиты для работы с файлами
-│ └── logger.py # Синглтон Logger для логирования
-├── tests/ # Тесты микросервиса
-│ ├── test_main.py
-│ └── test_task_queue.py
-├── requirements.txt # Зависимости проекта
-├── config.py # Конфигурации (Redis URL, пути, токены)
-├── errors.py # Централизованные коды ошибок
-└── README.md # Документация проекта
+├── app/                     # Основной код микросервиса
+│   ├── main.py              # FastAPI эндпоинты
+│   ├── models.py            # Pydantic модели: TaskRequest, TaskResponse
+│   ├── statuses.py          # Enum статусов задач и файлов
+│   ├── task_queue.py        # Работа с Redis очередью задач
+│   ├── gdrive_manager.py    # Работа с Google Drive (бот загружает файлы)
+│   ├── fileManager.py       # Утилиты для работы с файлами
+│   └── logger.py            # Синглтон Logger для логирования
+├── tests/                   # Тесты микросервиса
+│   ├── test_main.py
+│   └── test_task_queue.py
+├── requirements.txt         # Зависимости проекта
+├── config.py                # Конфигурации (Redis URL, пути, токены)
+├── errors.py                # Централизованные коды ошибок
+└── README.md                # Документация проекта
